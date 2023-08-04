@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple File Server</title>
+    <style>
+        body {
+            background-color: #000000;
+            color: #f8f8f8;
+        }
+
+        .code-block {
+            color: #00ff00; /* green color for the code */
+            background-color: #2a2a2a; /* dark gray background */
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Endpoints:</h3>
+    <ul>
+        <li><p>Upload File: <code class="code-block">POST http://localhost:3000/upload</code></p></li>
+        <li><p>Download File: <code class="code-block">GET http://localhost:3000/download/{filename}</code></p></li>
+
+    </ul>
+</body>
+</html>
